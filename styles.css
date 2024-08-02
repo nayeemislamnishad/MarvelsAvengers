@@ -76,7 +76,20 @@ main {
     header p {
         font-size: 1rem;
     }
+/* New class for watched movies */
+.watched {
+    background-color: #4caf50; /* Green background */
+    border-color: #388e3c; /* Darker green border */
+    color: #ffffff; /* White text */
+}
 
+.watched:hover {
+    background-color: #45a049; /* Slightly lighter green on hover */
+}
+
+.watched:active {
+    background-color: #388e3c; /* Darker green when clicked */
+}
     .movie-box {
         padding: 15px;
         font-size: 0.9rem;
